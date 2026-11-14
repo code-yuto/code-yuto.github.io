@@ -1,0 +1,273 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Yuto Watanabe | Portfolio</title>
+  <meta name="description" content="Portfolio of an Information and Communications Engineering student at Shibaura Institute of Technology, aiming to become an infrastructure and network engineer.">
+  <link rel="alternate" hreflang="ja" href="https://code-yuto.github.io/">
+  <link rel="alternate" hreflang="en" href="https://code-yuto.github.io/en/">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="name" href="#top">Yuto Watanabe</a>
+      <nav aria-label="On this page">
+        <a href="#projects">Projects</a>
+        <a href="#certifications">Certifications</a>
+        <a href="#skills">Skills</a>
+        <a href="../" hreflang="ja" lang="ja">日本語</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top" class="wrap">
+    <div class="intro">
+      <h1>Yuto Watanabe</h1>
+      <p class="affiliation">Information and Communications Engineering, College of Engineering, Shibaura Institute of Technology (expected graduation: March 2028)</p>
+      <p>
+        At university I have built things in teams across very different settings: gPBL projects with overseas universities,
+        ShibaLab, a student creative team on campus, and a long-term internship. Each team had different members, languages and goals.
+      </p>
+      <p>
+        When I first started team development, I did not know how to divide the work or move a project forward.
+        Curious about how software is actually developed in industry, I passed the Fundamental Information Technology Engineer Examination
+        during the spring break of my first year. I am now working on the Applied Information Technology Engineer Examination
+        (passed Part A; Part B upcoming).
+      </p>
+      <p>
+        Things did not go well from the start. Systems failed on the day, and ideas did not get across.
+        I reviewed each failure and changed how I worked so that I would not repeat it.
+        That steady improvement led to winning the top award as team leader at gPBL in summer 2026.
+      </p>
+      <p>
+        What excites me is making things that keep running in the real world without stopping.
+        That is why I want to work on the infrastructure and networks underneath them.
+      </p>
+      <div class="links">
+        <a href="https://github.com/code-yuto">GitHub</a>
+      </div>
+    </div>
+
+    <section id="projects" aria-labelledby="projects-title">
+      <h2 id="projects-title">Projects</h2>
+      <p class="section-lead">Things I built with a team and ran in front of real people.</p>
+
+      <h3>gPBL (Global Project Based Learning)</h3>
+
+      <article class="project">
+        <div>
+          <span class="highlight">Best Award</span>
+          <h4>Drought Monitoring System</h4>
+          <p class="meta">gPBL Program on IoT in the Era of LLMs 2026 / Aug–Sep 2026 / Hanoi, Vietnam</p>
+          <p>
+            An IoT system that measures soil moisture in the field and shows drought risk with a four-color LED and a dashboard.
+            Green means normal, yellow medium risk, red high risk, and purple a sensor fault.
+          </p>
+          <p>
+            Building on my hardware and IoT system design work in the previous gPBL, I led the team this time.
+            I divided the roles, kept the project on track, summarized our results in English and presented them. We won the top award.
+          </p>
+          <dl>
+            <dt>Role</dt><dd>Team leader (project management, English summary and presentation)</dd>
+            <dt>Team</dt><dd>Students from Japan, India, Vietnam and Malaysia</dd>
+            <dt>Code</dt><dd><a href="https://github.com/code-yuto/pbl2026-summer">pbl2026-summer</a> / <a href="https://github.com/code-yuto/pbl-Hanoi2026">pbl-Hanoi2026</a></dd>
+          </dl>
+          <ul class="tags">
+            <li>ESP32</li><li>Soil moisture sensor</li><li>Wi-Fi / Serial</li><li>JSON</li><li>Python</li><li>Docker</li><li>Supabase</li><li>English</li>
+          </ul>
+        </div>
+        <div class="media two">
+          <figure class="wide">
+            <img src="../assets/img/pbl26-sensor.jpg" alt="Soil moisture sensor connected to an ESP32 on a breadboard, placed in paper cups of soil" loading="lazy" width="1600" height="1200">
+            <figcaption>Prototype with ESP32 and soil moisture sensor</figcaption>
+          </figure>
+          <figure>
+            <img src="../assets/img/pbl26-presentation.jpg" alt="Presenting the LED color and risk table in English" loading="lazy" width="1477" height="1108">
+            <figcaption>Presenting the system architecture</figcaption>
+          </figure>
+          <figure>
+            <img src="../assets/img/pbl26-award.jpg" alt="Team members holding certificates" loading="lazy" width="1200" height="1600">
+            <figcaption>After the award</figcaption>
+          </figure>
+        </div>
+      </article>
+
+      <article class="project">
+        <div>
+          <h4>ReVolt AI</h4>
+          <p class="meta">gPBL 2026 @ SIT (Multidisciplinary Innovation for Sustainable Future) / Feb–Mar 2026 / Toyosu Campus, Shibaura Institute of Technology</p>
+          <p>
+            Lithium-ion batteries thrown into household waste are causing fires in garbage trucks and recycling facilities.
+            We proposed an AI-driven IoT smart screening system that detects batteries before they are disposed of improperly.
+          </p>
+          <p>
+            I was in charge of the hardware and designed the IoT system.
+          </p>
+          <dl>
+            <dt>Role</dt><dd>Hardware and IoT system design</dd>
+            <dt>Team</dt><dd>6 students from Japan, Vietnam, India, Taiwan, Italy and the Netherlands</dd>
+            <dt>Code</dt><dd><a href="https://github.com/code-yuto/pbl">pbl</a></dd>
+          </dl>
+          <ul class="tags">
+            <li>Arduino UNO</li><li>C++</li><li>IoT</li><li>AI</li><li>Electronic circuits</li><li>English</li>
+          </ul>
+        </div>
+        <div class="media two">
+          <figure class="wide">
+            <img src="../assets/img/pbl25-hardware.jpg" alt="Circuit with an Arduino UNO, breadboards, traffic-light LEDs and a battery box" loading="lazy" width="1600" height="1200">
+            <figcaption>The hardware I built</figcaption>
+          </figure>
+          <figure>
+            <img src="../assets/img/pbl25-presentation.jpg" alt="Presenting with a microphone" loading="lazy" width="1600" height="1067">
+            <figcaption>Final presentation</figcaption>
+          </figure>
+          <figure>
+            <img src="../assets/img/pbl25-team.jpg" alt="Team holding certificates in front of the program screen" loading="lazy" width="1600" height="1067">
+            <figcaption>The team</figcaption>
+          </figure>
+        </div>
+      </article>
+
+      <h3>ShibaLab (exhibitions)</h3>
+
+      <article class="project">
+        <div>
+          <h4>TRACE</h4>
+          <p class="meta">Shibaura Festival 2026</p>
+          <p>
+            An interactive exhibit that recreates the Toyosu Campus buildings in 3D and sends a beam of light through them.
+            At the end, each visitor sees “your trace” on their own smartphone.
+          </p>
+          <p>
+            I built the exhibit screen and the 3D models of the campus.
+            Using location data collected on the front end, I applied graph theory and shortest-path search to draw routes on the map.
+          </p>
+          <dl>
+            <dt>Role</dt><dd>Exhibit screen, 3D modeling</dd>
+            <dt>Code</dt><dd><a href="https://github.com/code-yuto/trace-qr">trace-qr</a> / <a href="https://github.com/code-yuto/toyosu-campus-blender">toyosu-campus-blender</a></dd>
+          </dl>
+          <ul class="tags"><li>Blender</li><li>3D modeling</li><li>Location data</li><li>Graph theory</li><li>Shortest-path search</li><li>Front end</li></ul>
+        </div>
+        <div class="media">
+          <video controls muted playsinline preload="none" poster="../assets/img/trace-poster.jpg" width="1280" height="720">
+            <source src="../assets/video/trace.webm" type="video/webm">
+          </video>
+        </div>
+      </article>
+
+      <article class="project">
+        <div>
+          <span class="highlight">Joint project with another university</span>
+          <h4>Gensō Shinkidō</h4>
+          <p class="meta">ARD (Hosei University) × ShibaLab / 2026</p>
+          <p>
+            An immersive exhibit created together with ARD at Hosei University. In a dark room, visitors point a flashlight at the wall,
+            and images appear only where the light falls, revealing puzzle clues and scenery.
+          </p>
+          <p>
+            I designed the system. I built the mechanism that shows images only in the direction the flashlight points,
+            and projected onto two walls instead of one to create a sense of depth. I put particular effort into the transitions between scenes.
+          </p>
+          <dl>
+            <dt>Role</dt><dd>System design</dd>
+          </dl>
+          <ul class="tags"><li>System design</li><li>Projection</li><li>Two-wall projection</li><li>Interaction</li><li>Inter-university collaboration</li></ul>
+        </div>
+        <div class="media">
+          <video class="portrait" controls muted playsinline preload="none" poster="../assets/img/ard-light-poster.jpg" width="720" height="1280">
+            <source src="../assets/video/ard-light.webm" type="video/webm">
+          </video>
+        </div>
+      </article>
+
+      <article class="project">
+        <div>
+          <h4>Ink Shooting</h4>
+          <p class="meta">Omiya Festival 2026</p>
+          <p>
+            A Unity game projected on the wall that visitors play using their smartphone as a controller.
+            They move a cannon with the phone and shoot the balls flying toward them.
+          </p>
+          <p>
+            Since many visitors were children, I focused first on making it fun with simple actions, without needing to read any instructions.
+          </p>
+          <dl>
+            <dt>Code</dt><dd><a href="https://github.com/code-yuto/OmiyaFes2026">OmiyaFes2026</a></dd>
+          </dl>
+          <ul class="tags"><li>Unity</li><li>C#</li><li>Smartphone controller</li><li>Projector</li></ul>
+        </div>
+        <div class="media">
+          <video class="portrait" controls muted playsinline preload="none" poster="../assets/img/omiya-shooter-poster.jpg" width="720" height="1280">
+            <source src="../assets/video/omiya-shooter.webm" type="video/webm">
+          </video>
+        </div>
+      </article>
+
+      <article class="project">
+        <div>
+          <h4>Canvas of the Night Sky</h4>
+          <p class="meta">Shibaura Festival 2025</p>
+          <p>
+            Visitors connect stars on a screen to draw their own constellation, then send it into the night sky on the exhibit screen.
+          </p>
+          <p>
+            I built the drawing side: the screen visitors touch directly.
+            To let first-time visitors connect stars without getting lost, I kept the steps to drawing lines and pressing OK, and added an English mode.
+          </p>
+          <dl>
+            <dt>Role</dt><dd>Constellation drawing screen</dd>
+          </dl>
+          <ul class="tags"><li>Interactive exhibit</li><li>UI</li><li>Japanese / English</li></ul>
+        </div>
+        <div class="media">
+          <video class="portrait" controls muted playsinline preload="none" poster="../assets/img/star-canvas-poster.jpg" width="720" height="1280">
+            <source src="../assets/video/star-canvas.webm" type="video/webm">
+          </video>
+        </div>
+      </article>
+    </section>
+
+    <section id="certifications" aria-labelledby="cert-title">
+      <h2 id="cert-title">Certifications</h2>
+      <dl class="cert-list">
+        <dt>Fundamental Information Technology Engineer Examination (IPA)</dt><dd>Passed (spring break of first year)</dd>
+        <dt>Applied Information Technology Engineer Examination (IPA)</dt><dd>Passed Part A; Part B upcoming</dd>
+      </dl>
+    </section>
+
+    <section id="skills" aria-labelledby="skills-title">
+      <h2 id="skills-title">Skills</h2>
+      <p class="section-lead">Used in classes, personal work and team projects.</p>
+      <div class="skills">
+        <div>
+          <h4>Languages</h4>
+          <ul class="tags"><li>C</li><li>C++</li><li>C#</li><li>Python</li><li>TypeScript / JavaScript</li><li>HTML / CSS</li></ul>
+        </div>
+        <div>
+          <h4>Network and infrastructure</h4>
+          <ul class="tags"><li>Packet sending program (C)</li><li>Docker</li><li>Supabase</li><li>Git / GitHub</li></ul>
+        </div>
+        <div>
+          <h4>Hardware</h4>
+          <ul class="tags"><li>Arduino</li><li>ESP32</li><li>Sensors and circuits</li><li>Projectors</li></ul>
+        </div>
+        <div>
+          <h4>Visuals and 3D</h4>
+          <ul class="tags"><li>Unity</li><li>Blender</li><li>TouchDesigner</li></ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <a href="https://github.com/code-yuto">github.com/code-yuto</a>
+    </div>
+  </footer>
+</body>
+</html>
