@@ -16,6 +16,7 @@
       <a class="name" href="#top">Yuto Watanabe</a>
       <nav aria-label="ページ内">
         <a href="#projects">Projects</a>
+        <a href="#certifications">Certifications</a>
         <a href="#skills">Skills</a>
       </nav>
     </div>
@@ -28,6 +29,11 @@
       <p>
         大学では、海外の大学と組む gPBL、学内の制作チーム ShibaLab、長期インターンと、
         メンバーも言語も目的も違う環境でチーム開発をしてきました。
+      </p>
+      <p>
+        チーム開発を始めたころは、どう分担してどう進めればよいのかが分かりませんでした。
+        実際の社会ではどのように開発が進められているのかに興味を持ち、1年次の春休みに基本情報技術者試験に合格しました。
+        現在は応用情報技術者試験に取り組んでいます（科目A 合格、科目B 受験予定）。
       </p>
       <p>
         どの場でも最初からうまくいったわけではありません。本番で動かない、意図が伝わらない、
@@ -59,7 +65,7 @@
             緑は通常、黄は中程度のリスク、赤は高いリスク、紫はセンサーの異常を表します。
           </p>
           <p>
-            前年の gPBL でハードウェアを担当した経験をもとに、今回はチームのリーダーを務めました。
+            前回の gPBL でハードウェアと IoT システムの設計を担当した経験をもとに、今回はチームのリーダーを務めました。
             役割分担と進行を担い、成果を英語でまとめて発表し、最優秀賞を受賞しました。
           </p>
           <dl>
@@ -89,22 +95,22 @@
 
       <article class="project">
         <div>
-          <h4>gPBL 2026 @ SIT（Group 3）</h4>
-          <p class="meta">Multidisciplinary Innovation for Sustainable Future ／ 2026年2〜3月 ／ 芝浦工業大学 豊洲キャンパス</p>
+          <h4>ReVolt AI</h4>
+          <p class="meta">gPBL 2026 @ SIT（Multidisciplinary Innovation for Sustainable Future）／ 2026年2〜3月 ／ 芝浦工業大学 豊洲キャンパス</p>
           <p>
-            日本・ベトナム・インド・台湾・イタリア・オランダの学生と、持続可能な社会に向けた課題に取り組みました。
+            家庭ごみに混ざったリチウムイオン電池が、ごみ収集車やリサイクル施設で火災を起こしている問題に取り組みました。
+            AI と IoT を組み合わせて、捨てられるものの中から電池を見分けるスクリーニングシステムを提案しました。
           </p>
           <p>
-            私はハードウェアを担当し、Arduino を使った回路の設計と組み立てを行いました。
-            <span class="todo">TODO: 何をつくったか（1行）</span>
+            私はハードウェアを担当し、IoT システムの設計を行いました。
           </p>
           <dl>
-            <dt>役割</dt><dd>ハードウェア（回路設計・組み立て）</dd>
-            <dt>チーム</dt><dd>日本・ベトナム・インド・台湾・イタリア・オランダの学生による混成チーム</dd>
+            <dt>役割</dt><dd>ハードウェア・IoT システムの設計</dd>
+            <dt>チーム</dt><dd>日本・ベトナム・インド・台湾・イタリア・オランダの学生 6名</dd>
             <dt>コード</dt><dd><a href="https://github.com/code-yuto/pbl">pbl</a></dd>
           </dl>
           <ul class="tags">
-            <li>Arduino UNO</li><li>C++</li><li>電子回路</li><li>英語</li>
+            <li>Arduino UNO</li><li>C++</li><li>IoT</li><li>AI</li><li>電子回路</li><li>英語</li>
           </ul>
         </div>
         <div class="media two">
@@ -123,7 +129,7 @@
         </div>
       </article>
 
-      <h3>ShibaLab（学内展示）</h3>
+      <h3>ShibaLab（学内外の展示）</h3>
 
       <article class="project">
         <div>
@@ -133,11 +139,15 @@
             豊洲キャンパスの校舎を 3D で再現し、その中を光が進んでいくインタラクティブ展示です。
             体験の最後に、参加者のスマートフォンに「あなたの軌跡」が表示されます。
           </p>
+          <p>
+            私は展示画面と校舎の 3D モデリングを担当しました。
+            フロントエンドで取得した位置情報データをグラフ理論の考え方で扱い、最短経路探索を使ってマップ上に経路を描きました。
+          </p>
           <dl>
-            <dt>役割</dt><dd><span class="todo">TODO</span></dd>
+            <dt>役割</dt><dd>展示画面・3D モデリング</dd>
             <dt>コード</dt><dd><a href="https://github.com/code-yuto/trace-qr">trace-qr</a> ／ <a href="https://github.com/code-yuto/toyosu-campus-blender">toyosu-campus-blender</a></dd>
           </dl>
-          <ul class="tags"><li>Blender</li><li>Python</li><li>HTML</li><li>QR コード</li><li>プロジェクター</li></ul>
+          <ul class="tags"><li>Blender</li><li>3D モデリング</li><li>位置情報</li><li>グラフ理論</li><li>最短経路探索</li><li>フロントエンド</li></ul>
         </div>
         <div class="media">
           <video controls muted playsinline preload="none" poster="assets/img/trace-poster.jpg" width="1280" height="720">
@@ -148,16 +158,21 @@
 
       <article class="project">
         <div>
-          <h4>ARD × ShibaLab コラボ展示</h4>
-          <p class="meta">2026年</p>
+          <span class="highlight">他大学との共同制作</span>
+          <h4>幻想新奇道</h4>
+          <p class="meta">法政大学 ARD × ShibaLab ／ 2026年</p>
           <p>
-            暗い部屋の壁 2 面に映像を投影し、懐中電灯型のデバイスで照らした部分にだけ、
-            謎解きの手がかりや景色が浮かび上がる体験型展示です。
+            法政大学の ARD と共同で制作した体験型展示です。暗い部屋で懐中電灯を壁に向けると、
+            照らした場所にだけ映像が現れ、謎解きの手がかりや景色が浮かび上がります。
+          </p>
+          <p>
+            私はシステムの設計を担当しました。懐中電灯を向けた方向にだけ映像を映す仕組みをつくり、
+            壁を1面ではなく2面使って投影することで奥行きを出しました。場面が切り替わるときの映像の遷移に特に力を入れました。
           </p>
           <dl>
-            <dt>役割</dt><dd><span class="todo">TODO</span></dd>
+            <dt>役割</dt><dd>システム設計</dd>
           </dl>
-          <ul class="tags"><li>プロジェクションマッピング</li><li>センシング</li><li><span class="todo">TODO: 使用技術</span></li></ul>
+          <ul class="tags"><li>システム設計</li><li>プロジェクション</li><li>2面投影</li><li>インタラクション</li><li>他大学との共同制作</li></ul>
         </div>
         <div class="media">
           <video class="portrait" controls muted playsinline preload="none" poster="assets/img/ard-light-poster.jpg" width="720" height="1280">
@@ -168,14 +183,16 @@
 
       <article class="project">
         <div>
-          <h4>OmiyaFes 2026</h4>
+          <h4>インクシューティング</h4>
           <p class="meta">大宮祭 2026</p>
           <p>
-            壁に投影した Unity のゲームを、来場者が自分のスマートフォンをコントローラーにして遊ぶ展示です。
-            スマートフォンの操作で大砲を動かし、飛んでくる球を撃ちます。
+            壁に投影した Unity のゲームを、来場者がスマートフォンをコントローラーにして遊ぶ展示です。
+            スマートフォンで大砲を動かし、飛んでくる球を撃ちます。
+          </p>
+          <p>
+            来場者に子どもが多いことから、説明を読まなくても、単純な動作だけで楽しめることを第一に考えて作りました。
           </p>
           <dl>
-            <dt>役割</dt><dd><span class="todo">TODO</span></dd>
             <dt>コード</dt><dd><a href="https://github.com/code-yuto/OmiyaFes2026">OmiyaFes2026</a></dd>
           </dl>
           <ul class="tags"><li>Unity</li><li>C#</li><li>スマートフォン連携</li><li>プロジェクター</li></ul>
@@ -192,13 +209,16 @@
           <h4>夜空のキャンパス</h4>
           <p class="meta">芝浦祭 2025</p>
           <p>
-            タブレットに映した星空に線を引いて自分だけの星座をつくり、完成した星座を展示スクリーンの夜空に送り出す作品です。
-            留学生や海外からの来場者も遊べるように英語表示にも対応しました。
+            画面に映した星空の星を線でつないで自分だけの星座を描き、完成した星座を展示スクリーンの夜空に送り出す作品です。
+          </p>
+          <p>
+            私は星座を描くモニター側、つまり来場者が直接触れる画面を作りました。
+            初めて触る人でも迷わず星をつなげるように、操作を線を引いて OK を押すだけにし、英語表示にも対応しました。
           </p>
           <dl>
-            <dt>役割</dt><dd><span class="todo">TODO</span></dd>
+            <dt>役割</dt><dd>星座を描くモニター側の制作</dd>
           </dl>
-          <ul class="tags"><li>タブレット</li><li>インタラクティブ展示</li><li>日英対応</li><li><span class="todo">TODO: 使用技術</span></li></ul>
+          <ul class="tags"><li>インタラクティブ展示</li><li>UI</li><li>日英対応</li></ul>
         </div>
         <div class="media">
           <video class="portrait" controls muted playsinline preload="none" poster="assets/img/star-canvas-poster.jpg" width="720" height="1280">
@@ -206,6 +226,14 @@
           </video>
         </div>
       </article>
+    </section>
+
+    <section id="certifications" aria-labelledby="cert-title">
+      <h2 id="cert-title">Certifications</h2>
+      <dl class="cert-list">
+        <dt>基本情報技術者試験</dt><dd>合格（1年次の春休み）</dd>
+        <dt>応用情報技術者試験</dt><dd>科目A 合格、科目B 受験予定</dd>
+      </dl>
     </section>
 
     <section id="skills" aria-labelledby="skills-title">
