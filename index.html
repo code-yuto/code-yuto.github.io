@@ -1,0 +1,241 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Yuto Watanabe | Portfolio</title>
+  <meta name="description" content="芝浦工業大学 工学部 情報通信コース。インフラ・ネットワークエンジニア志望の学生のポートフォリオ。">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="name" href="#top">Yuto Watanabe</a>
+      <nav aria-label="ページ内">
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top" class="wrap">
+    <div class="intro">
+      <h1>Yuto Watanabe</h1>
+      <p class="affiliation">芝浦工業大学 工学部 情報通信コース（2028年3月 卒業予定）</p>
+      <p>
+        大学では、海外の大学と組む gPBL、学内の制作チーム ShibaLab、長期インターンと、
+        メンバーも言語も目的も違う環境でチーム開発をしてきました。
+      </p>
+      <p>
+        どの場でも最初からうまくいったわけではありません。本番で動かない、意図が伝わらない、
+        といった失敗を一つずつ振り返り、次の開発で同じ失敗をしないように動き方を変えてきました。
+        その積み重ねが、2026年夏の gPBL でリーダーとして最優秀賞を取ることにつながりました。
+      </p>
+      <p>
+        つくったものが現場で止まらずに動き続けることに面白さを感じ、
+        その土台になるインフラ・ネットワークの仕事を志望しています。
+      </p>
+      <div class="links">
+        <a href="https://github.com/code-yuto">GitHub</a>
+      </div>
+    </div>
+
+    <section id="projects" aria-labelledby="projects-title">
+      <h2 id="projects-title">Projects</h2>
+      <p class="section-lead">チームで開発し、人前で動かしたものを載せています。</p>
+
+      <h3>gPBL（Global Project Based Learning）</h3>
+
+      <article class="project">
+        <div>
+          <span class="highlight">最優秀賞</span>
+          <h4>干ばつモニタリングシステム</h4>
+          <p class="meta">gPBL Program on IoT in the Era of LLMs 2026 ／ 2026年8〜9月 ／ ベトナム・ハノイ</p>
+          <p>
+            畑の土の水分をセンサーで測り、干ばつのリスクを4色のLEDとダッシュボードで知らせる IoT システムです。
+            緑は通常、黄は中程度のリスク、赤は高いリスク、紫はセンサーの異常を表します。
+          </p>
+          <p>
+            前年の gPBL でハードウェアを担当した経験をもとに、今回はチームのリーダーを務めました。
+            役割分担と進行を担い、成果を英語でまとめて発表し、最優秀賞を受賞しました。
+          </p>
+          <dl>
+            <dt>役割</dt><dd>リーダー（進行・英語での取りまとめと発表）</dd>
+            <dt>チーム</dt><dd>日本・インド・ベトナム・マレーシアの学生による混成チーム</dd>
+            <dt>コード</dt><dd><a href="https://github.com/code-yuto/pbl2026-summer">pbl2026-summer</a> ／ <a href="https://github.com/code-yuto/pbl-Hanoi2026">pbl-Hanoi2026</a></dd>
+          </dl>
+          <ul class="tags">
+            <li>ESP32</li><li>土壌水分センサー</li><li>Wi-Fi / Serial</li><li>JSON</li><li>Python</li><li>Docker</li><li>Supabase</li><li>英語</li>
+          </ul>
+        </div>
+        <div class="media two">
+          <figure class="wide">
+            <img src="assets/img/pbl26-sensor.jpg" alt="ESP32とブレッドボードにつないだ土壌水分センサー。紙コップの土に差している" loading="lazy" width="1600" height="1200">
+            <figcaption>ESP32 と土壌水分センサーの試作</figcaption>
+          </figure>
+          <figure>
+            <img src="assets/img/pbl26-presentation.jpg" alt="LEDの色とリスクの対応表をスクリーンに映して英語で発表している様子" loading="lazy" width="1477" height="1108">
+            <figcaption>システム構成の発表</figcaption>
+          </figure>
+          <figure>
+            <img src="assets/img/pbl26-award.jpg" alt="修了証を持つチームメンバー" loading="lazy" width="1200" height="1600">
+            <figcaption>表彰後</figcaption>
+          </figure>
+        </div>
+      </article>
+
+      <article class="project">
+        <div>
+          <h4>gPBL 2026 @ SIT（Group 3）</h4>
+          <p class="meta">Multidisciplinary Innovation for Sustainable Future ／ 2026年2〜3月 ／ 芝浦工業大学 豊洲キャンパス</p>
+          <p>
+            日本・ベトナム・インド・台湾・イタリア・オランダの学生と、持続可能な社会に向けた課題に取り組みました。
+          </p>
+          <p>
+            私はハードウェアを担当し、Arduino を使った回路の設計と組み立てを行いました。
+            <span class="todo">TODO: 何をつくったか（1行）</span>
+          </p>
+          <dl>
+            <dt>役割</dt><dd>ハードウェア（回路設計・組み立て）</dd>
+            <dt>チーム</dt><dd>日本・ベトナム・インド・台湾・イタリア・オランダの学生による混成チーム</dd>
+            <dt>コード</dt><dd><a href="https://github.com/code-yuto/pbl">pbl</a></dd>
+          </dl>
+          <ul class="tags">
+            <li>Arduino UNO</li><li>C++</li><li>電子回路</li><li>英語</li>
+          </ul>
+        </div>
+        <div class="media two">
+          <figure class="wide">
+            <img src="assets/img/pbl25-hardware.jpg" alt="Arduino UNOとブレッドボード、信号機型のLED、電池ボックスをつないだ回路" loading="lazy" width="1600" height="1200">
+            <figcaption>担当したハードウェア</figcaption>
+          </figure>
+          <figure>
+            <img src="assets/img/pbl25-presentation.jpg" alt="マイクを持って発表している様子" loading="lazy" width="1600" height="1067">
+            <figcaption>最終発表</figcaption>
+          </figure>
+          <figure>
+            <img src="assets/img/pbl25-team.jpg" alt="プログラムの看板の前で修了証を持つチーム" loading="lazy" width="1600" height="1067">
+            <figcaption>チーム</figcaption>
+          </figure>
+        </div>
+      </article>
+
+      <h3>ShibaLab（学内展示）</h3>
+
+      <article class="project">
+        <div>
+          <h4>TRACE</h4>
+          <p class="meta">芝浦祭 2026</p>
+          <p>
+            豊洲キャンパスの校舎を 3D で再現し、その中を光が進んでいくインタラクティブ展示です。
+            体験の最後に、参加者のスマートフォンに「あなたの軌跡」が表示されます。
+          </p>
+          <dl>
+            <dt>役割</dt><dd><span class="todo">TODO</span></dd>
+            <dt>コード</dt><dd><a href="https://github.com/code-yuto/trace-qr">trace-qr</a> ／ <a href="https://github.com/code-yuto/toyosu-campus-blender">toyosu-campus-blender</a></dd>
+          </dl>
+          <ul class="tags"><li>Blender</li><li>Python</li><li>HTML</li><li>QR コード</li><li>プロジェクター</li></ul>
+        </div>
+        <div class="media">
+          <video controls muted playsinline preload="none" poster="assets/img/trace-poster.jpg" width="1280" height="720">
+            <source src="assets/video/trace.webm" type="video/webm">
+          </video>
+        </div>
+      </article>
+
+      <article class="project">
+        <div>
+          <h4>ARD × ShibaLab コラボ展示</h4>
+          <p class="meta">2026年</p>
+          <p>
+            暗い部屋の壁 2 面に映像を投影し、懐中電灯型のデバイスで照らした部分にだけ、
+            謎解きの手がかりや景色が浮かび上がる体験型展示です。
+          </p>
+          <dl>
+            <dt>役割</dt><dd><span class="todo">TODO</span></dd>
+          </dl>
+          <ul class="tags"><li>プロジェクションマッピング</li><li>センシング</li><li><span class="todo">TODO: 使用技術</span></li></ul>
+        </div>
+        <div class="media">
+          <video class="portrait" controls muted playsinline preload="none" poster="assets/img/ard-light-poster.jpg" width="720" height="1280">
+            <source src="assets/video/ard-light.webm" type="video/webm">
+          </video>
+        </div>
+      </article>
+
+      <article class="project">
+        <div>
+          <h4>OmiyaFes 2026</h4>
+          <p class="meta">大宮祭 2026</p>
+          <p>
+            壁に投影した Unity のゲームを、来場者が自分のスマートフォンをコントローラーにして遊ぶ展示です。
+            スマートフォンの操作で大砲を動かし、飛んでくる球を撃ちます。
+          </p>
+          <dl>
+            <dt>役割</dt><dd><span class="todo">TODO</span></dd>
+            <dt>コード</dt><dd><a href="https://github.com/code-yuto/OmiyaFes2026">OmiyaFes2026</a></dd>
+          </dl>
+          <ul class="tags"><li>Unity</li><li>C#</li><li>スマートフォン連携</li><li>プロジェクター</li></ul>
+        </div>
+        <div class="media">
+          <video class="portrait" controls muted playsinline preload="none" poster="assets/img/omiya-shooter-poster.jpg" width="720" height="1280">
+            <source src="assets/video/omiya-shooter.webm" type="video/webm">
+          </video>
+        </div>
+      </article>
+
+      <article class="project">
+        <div>
+          <h4>夜空のキャンパス</h4>
+          <p class="meta">芝浦祭 2025</p>
+          <p>
+            タブレットに映した星空に線を引いて自分だけの星座をつくり、完成した星座を展示スクリーンの夜空に送り出す作品です。
+            留学生や海外からの来場者も遊べるように英語表示にも対応しました。
+          </p>
+          <dl>
+            <dt>役割</dt><dd><span class="todo">TODO</span></dd>
+          </dl>
+          <ul class="tags"><li>タブレット</li><li>インタラクティブ展示</li><li>日英対応</li><li><span class="todo">TODO: 使用技術</span></li></ul>
+        </div>
+        <div class="media">
+          <video class="portrait" controls muted playsinline preload="none" poster="assets/img/star-canvas-poster.jpg" width="720" height="1280">
+            <source src="assets/video/star-canvas.webm" type="video/webm">
+          </video>
+        </div>
+      </article>
+    </section>
+
+    <section id="skills" aria-labelledby="skills-title">
+      <h2 id="skills-title">Skills</h2>
+      <p class="section-lead">授業・制作・チーム開発で使ったもの。</p>
+      <div class="skills">
+        <div>
+          <h4>言語</h4>
+          <ul class="tags"><li>C</li><li>C++</li><li>C#</li><li>Python</li><li>TypeScript / JavaScript</li><li>HTML / CSS</li></ul>
+        </div>
+        <div>
+          <h4>ネットワーク・インフラ</h4>
+          <ul class="tags"><li>パケット送信プログラム（C）</li><li>Docker</li><li>Supabase</li><li>Git / GitHub</li></ul>
+        </div>
+        <div>
+          <h4>ハードウェア</h4>
+          <ul class="tags"><li>Arduino</li><li>ESP32</li><li>センサー・電子回路</li><li>プロジェクター</li></ul>
+        </div>
+        <div>
+          <h4>映像・3D</h4>
+          <ul class="tags"><li>Unity</li><li>Blender</li><li>TouchDesigner</li></ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <a href="https://github.com/code-yuto">github.com/code-yuto</a>
+    </div>
+  </footer>
+</body>
+</html>
